@@ -14,6 +14,10 @@ class NewBadge extends React.Component{
         })
     }
 
+    handleSubmit= async(event)=>{
+        event.preventDefault();
+    }
+
     state = {
         loading : false,
         error: null,
