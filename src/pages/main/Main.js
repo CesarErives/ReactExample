@@ -8,8 +8,8 @@ const Main = (props) => {
     <React.Fragment>
         <div className="Main">
             <div className="Main_content">
-            <div className="h1__title">{props.title || "Aloha!"}</div>
-            <Button contentText={"Sign up now!"}></Button>
+            <div className="h1__title">{props.title || "Aloha!"} </div>
+            <Button contentText={"Sign up now!"} link={"/new"}></Button>
         </div>
         <Hero h={"88vh"}></Hero>
         </div>
