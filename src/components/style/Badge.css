@@ -12,6 +12,8 @@ height: 150px;
 overflow: hidden;
 border-top-left-radius: 15px;
 border-top-right-radius: 15px;
+}
+.Badge__header img{
 object-fit: cover;
 object-position: center;
 }
