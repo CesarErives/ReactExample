@@ -1,0 +1,10 @@
+.PathNotFound{
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.PathNotFound img{
+    align-items: center;
+    justify-content: center;
+}
