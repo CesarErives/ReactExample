@@ -3,6 +3,7 @@ import {BrowserRouter,Route,Switch} from "react-router-dom"
 import Layout from './pages/Layout/Layout'
 import Main from './pages/main/Main'
 import NewBadge from "./pages/NewBadge/NewBadge"
+import Login from "./pages/Login/login"
 import PathNotFound from "./pages/PathNotFound/PathNotFound"
 function App() {
   return (
