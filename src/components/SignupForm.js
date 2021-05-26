@@ -25,13 +25,12 @@ class SignupForm extends React.Component{
                     <div className="form-group mb-2">
                     <label className="mb-1">Password</label>
                     <input type="password" className="form-control" name="Password" onChange={this.props.onChange} value={this.props.formValues.Password}/>
-                    <button type="submit" className="Loginbtn">Login</button>
                     </div>
                     <div className="form-group mb-2">
                     <label className="mb-1">Confirm Password</label>
                     <input type="password" className="form-control" name="Password" onChange={this.props.onChange} 
                     value={this.props.formValues.ConfirmPassword}/>
-                    <button type="submit" className="Loginbtn">Sign me up!</button>
+                    <button type="submit" className="Signupbtn">Sign me up!</button>
                     </div>
                 </form>
             </div>
