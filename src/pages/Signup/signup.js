@@ -1,5 +1,6 @@
 import React from "react"
 import SignupForm from "../../components/SignupForm"
+import Hero from "../../components/Hero"
 import api from "../../libs/api"
 import "./signup.css"
 
@@ -40,6 +41,7 @@ class Signup extends React.Component{
     render(){
         return(
             <React.Fragment>
+    <Hero h={"20vh"}></Hero>
     <SignupForm 
     onChange={this.handleChange}      
     onSubmit={this.handleSubmit} 

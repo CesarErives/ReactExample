@@ -1,5 +1,6 @@
 import React from "react"
 import LoginForm from "../../components/LoginForm"
+import Hero from "../../components/Hero"
 import api from "../../libs/api"
 import "./login.css"
 
@@ -36,6 +37,7 @@ class login extends React.Component{
     render(){
         return(
             <React.Fragment>
+    <Hero h={"20vh"}></Hero>
     <LoginForm 
     onChange={this.handleChange}      
     onSubmit={this.handleSubmit} 
