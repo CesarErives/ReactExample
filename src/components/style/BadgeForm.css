@@ -1,0 +1,16 @@
+.saveChangesbtn{
+    margin-top: 20px;
+    background-color: lightblue;
+    padding: 12px 36px;
+    border-radius: 6px;
+    display: block;
+    align-self: center;
+    border: 1px solid gray;
+}
+
+.BadgeForm{
+    width: 450px;
+    border: 1px solid lightslategray;
+    padding: 45px;
+    border-radius: 20px;
+}
