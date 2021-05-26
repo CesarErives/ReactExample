@@ -1,10 +1,10 @@
 import React from "react"
 import Hero from "../../components/Hero"
 import Badge from "../../components/Badge"
+import BadgeForm from"../../components/BadgeForm"
 import "./NewBadge.css"
 
 class NewBadge extends React.Component{
-
     state = {
         loading : false,
         error: null,
@@ -26,6 +26,7 @@ class NewBadge extends React.Component{
             <React.Fragment>
                 <Hero h={"20vh"}></Hero>
                 <div className="container">
+                    <div className="row">
                     <div className="col">
                         <Badge 
                         HeaderBackground={this.state.form.HeaderBackground ||  "https://i.pinimg.com/originals/37/42/fb/3742fba5eb0ca8e31e31d31588f7b353.jpg"}
@@ -39,7 +40,11 @@ class NewBadge extends React.Component{
                         ></Badge>
                     </div>
                     <div className="col">
-
+                        <BadgeForm 
+                        onChange={this.handleChange} 
+                        onSubmit={this.handleSubmit} 
+                        formValues={this.state.form}></BadgeForm>
+                    </div>
                     </div>
                 </div>
              </React.Fragment>
