@@ -12,8 +12,8 @@ function App() {
         <Switch>
           <Route exact path="/" component={Main}></Route>
       {/* <Route exact path="/AllBadges" component={AllBadges}></Route>
-          <Route exact path="/signup" component={SignUp}></Route>
-          <Route exact path="/login" component={Login}></Route> */}
+          <Route exact path="/signup" component={SignUp}></Route>*/}
+          <Route exact path="/login" component={Login}></Route> 
           <Route exact path="/new" component={NewBadge}></Route>
          <Route component={PathNotFound}></Route> 
         </Switch>
