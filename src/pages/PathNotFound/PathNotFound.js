@@ -8,8 +8,10 @@ class PathNotFound extends React.Component{
         return(
             <React.Fragment>
                     <div className="PathNotFound">
+                        <div className="row">
                         <img src={image404} alt=""/>
-                        <Button contentText={"Go back..."} link={"/"}></Button>
+                       <Button contentText={"Go back..."} link={"/"}></Button> 
+                        </div>
                     </div>
             </React.Fragment>
         );

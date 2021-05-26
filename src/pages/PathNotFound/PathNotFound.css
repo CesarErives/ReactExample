@@ -1,11 +1,8 @@
 .PathNotFound{
     align-items: center;
+    display: flex;
     justify-content: center;
-    background-color: black;
-    height: fit-content;
+    background-color:rgb(29, 28, 28);
+    height: 88vh;
 }
 
-.PathNotFound img{
-    align-items: center;
-    justify-content: center;
-}
