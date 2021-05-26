@@ -1,14 +1,48 @@
 import React from "react"
 import Hero from "../../components/Hero"
+import Badge from "../../components/Badge"
 import "./NewBadge.css"
 
 class NewBadge extends React.Component{
+
+    state = {
+        loading : false,
+        error: null,
+        form:{
+            HeaderBackground: "",
+            ProfilePic: "",
+            name:"",
+            age:"",
+            city:"",
+            games:"",
+            achievements:"",
+            followers:""
+
+        }
+    }
+
     render(){
         return(
             <React.Fragment>
                 <Hero h={"20vh"}></Hero>
-                <h1>The New Badge</h1>
-            </React.Fragment>
+                <div className="container">
+                    <div className="col">
+                        <Badge 
+                        HeaderBackground={this.state.form.HeaderBackground ||  "https://i.pinimg.com/originals/37/42/fb/3742fba5eb0ca8e31e31d31588f7b353.jpg"}
+                        ProfilePic={this.state.form.ProfilePic || "https://friconix.com/png/fi-snsuxx-question-mark.png"}
+                        name={this.state.form.name || "Your Name"}
+                        age={this.state.form.age || "Age"}
+                        city={this.state.form.city || "Earth"}
+                        games={this.state.form.games || "0"}
+                        achievements={this.state.form.achievements || "Nothing"}
+                        followers={this.state.form.followers || "0"}
+                        ></Badge>
+                    </div>
+                    <div className="col">
+
+                    </div>
+                </div>
+             </React.Fragment>
         );
     }
 }
