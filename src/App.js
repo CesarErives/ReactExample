@@ -3,6 +3,7 @@ import {BrowserRouter,Route,Switch} from "react-router-dom"
 import Layout from './pages/Layout/Layout'
 import Main from './pages/main/Main'
 import NewBadge from "./pages/NewBadge/NewBadge"
+import PathNotFound from "./pages/PathNotFound/PathNotFound"
 function App() {
   return (
 
@@ -14,7 +15,7 @@ function App() {
           <Route exact path="/signup" component={SignUp}></Route>
           <Route exact path="/login" component={Login}></Route> */}
           <Route exact path="/new" component={NewBadge}></Route>
-     {/*     <Route component={PathNotFound}></Route> */}
+         <Route component={PathNotFound}></Route> 
         </Switch>
     </Layout>
     </BrowserRouter>

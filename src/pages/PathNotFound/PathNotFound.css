@@ -2,6 +2,7 @@
     align-items: center;
     justify-content: center;
     background-color: black;
+    height: fit-content;
 }
 
 .PathNotFound img{
