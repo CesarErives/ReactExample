@@ -9,6 +9,10 @@
     justify-content: center;
     overflow: hidden;
 }
+.Hero__img img{
+    object-fit: cover;
+    object-position: center;
+}
 
 .Hero__color_filter{
     position: absolute;
