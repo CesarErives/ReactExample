@@ -12,10 +12,14 @@ height: 150px;
 overflow: hidden;
 border-top-left-radius: 15px;
 border-top-right-radius: 15px;
+object-fit: cover;
+object-position: top;
 }
 .Badge__header img{
 object-fit: cover;
 object-position: center;
+width: 100%;
+height: 150px;
 }
 .Badge__userInfo{
 position: relative;
