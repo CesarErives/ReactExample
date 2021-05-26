@@ -4,6 +4,7 @@ import Layout from './pages/Layout/Layout'
 import Main from './pages/main/Main'
 import NewBadge from "./pages/NewBadge/NewBadge"
 import Login from "./pages/Login/login"
+import SignUp from "./pages/Signup/signup"
 import PathNotFound from "./pages/PathNotFound/PathNotFound"
 function App() {
   return (
@@ -12,8 +13,8 @@ function App() {
     <Layout>
         <Switch>
           <Route exact path="/" component={Main}></Route>
-      {/* <Route exact path="/AllBadges" component={AllBadges}></Route>
-          <Route exact path="/signup" component={SignUp}></Route>*/}
+      {/* <Route exact path="/AllBadges" component={AllBadges}></Route>*/}
+          <Route exact path="/signup" component={SignUp}></Route>
           <Route exact path="/login" component={Login}></Route> 
           <Route exact path="/new" component={NewBadge}></Route>
          <Route component={PathNotFound}></Route> 
