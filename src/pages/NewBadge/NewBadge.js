@@ -5,6 +5,15 @@ import BadgeForm from"../../components/BadgeForm"
 import "./NewBadge.css"
 
 class NewBadge extends React.Component{
+
+    handleChange= event =>{
+        this.setState({
+            form:{
+                ...this.state.form,[event.target.name]: event.target.value
+            }
+        })
+    }
+
     state = {
         loading : false,
         error: null,
