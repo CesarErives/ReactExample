@@ -12,12 +12,12 @@ class LoginForm extends React.Component{
                 <form onSubmit="">
                     <div className="form-group mb-2">
                     <label className="mb-1">E-Mail</label>
-                    <input type="text" className="form-control" name="Email" onChange={this.props.onChange} value={this.props.formValues.Email}/>
+                    <input type="email" className="form-control" name="Email" onChange={this.props.onChange} value={this.props.formValues.Email}/>
                     </div>
                     <div className="form-group mb-2">
                     <label className="mb-1">Password</label>
                     <input type="password" className="form-control" name="Password" onChange={this.props.onChange} value={this.props.formValues.Password}/>
-                    <button type="submit" className="saveChangesbtn">Save your changes</button>
+                    <button type="submit" className="Loginbtn">Login</button>
                     </div>
                 </form>
             </div>
