@@ -12,11 +12,11 @@ class SignupForm extends React.Component{
                 <form onSubmit="">
                 <div className="form-group mb-2">
                     <label className="mb-1">First Name(s)</label>
-                    <input type="email" className="form-control" name="Email" onChange={this.props.onChange} value={this.props.formValues.firstN}/>
+                    <input type="text" className="form-control" name="firstName" onChange={this.props.onChange} value={this.props.formValues.firstName}/>
                     </div>
                     <div className="form-group mb-2">
                     <label className="mb-1">Last Name(s)</label>
-                    <input type="email" className="form-control" name="Email" onChange={this.props.onChange} value={this.props.formValues.lastN}/>
+                    <input type="text" className="form-control" name="lastName" onChange={this.props.onChange} value={this.props.formValues.lastName}/>
                     </div>
                     <div className="form-group mb-2">
                     <label className="mb-1">E-Mail</label>
@@ -28,7 +28,7 @@ class SignupForm extends React.Component{
                     </div>
                     <div className="form-group mb-2">
                     <label className="mb-1">Confirm Password</label>
-                    <input type="password" className="form-control" name="Password" onChange={this.props.onChange} 
+                    <input type="password" className="form-control" name="ConfirmPassword" onChange={this.props.onChange} 
                     value={this.props.formValues.ConfirmPassword}/>
                     <button type="submit" className="Signupbtn">Sign me up!</button>
                     </div>
