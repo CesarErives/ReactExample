@@ -13,11 +13,14 @@
 
 .SignupForm{
     width: 450px;
+    height: fit-content;
     border: 1px solid lightslategray;
     padding: 45px;
     border-radius: 20px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 100px;
+    position: relative;
 }
 .Signupbtn:hover{
     margin-top: 20px;
